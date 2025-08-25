@@ -1,0 +1,20 @@
+{
+  "name": "voxel-web",
+  "version": "0.0.1",
+  "type": "module",
+  "ma9n": "main.js",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "preview": "vite preview --open"
+  },
+  "dependencies": {
+    "simplex-noise": "^4.0.3",
+    "simplex-noise-esm": "^2.5.0-esm.0",
+    "three": "^0.167.1",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "vite": "^5.4.19"
+  }
+}
